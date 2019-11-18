@@ -4,7 +4,7 @@ package waterfall;
 public class Main {
 
     public static void main(String[] args) {
-        Concealer concealer = new Concealer();
+        Concealer concealer = new JPGConcealer();
         long startTime = System.currentTimeMillis();
 
         concealer.conceal("image.jpg", "Secret text");
